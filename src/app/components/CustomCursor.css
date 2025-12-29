@@ -1,0 +1,33 @@
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  pointer-events: none;
+  z-index: 9999;
+  transform-origin: center;
+  transition: transform 0.1s ease-out;
+}
+
+.cursor-dot {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #35e6ff;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(2px);
+  position: relative;
+}
+
+.cursor-dot::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  background: #35e6ff;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}

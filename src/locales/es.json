@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "INGENIERA DE SOFTWARE",
+    "subtitle": "ENFOCADA EN LA NUBE, SISTEMAS ESCALABLES Y ARQUITECTURA LIMPIA"
+  },
+  "about": {
+    "title": "Quién soy",
+    "description": "Soy estudiante de Ingeniería de Software enfocada en aplicaciones modernas y escalables."
+  },
+  "projects": {
+    "title": "Proyectos que he construido",
+    "loading": "Cargando repositorios…",
+    "errorSome": "No se pudieron cargar algunos repositorios",
+    "github": "GitHub",
+    "noDescription": "Sin descripción."
+  },
+  "experience": {
+    "title": "Lo que he estado haciendo",
+    "items": [
+      {
+        "period": "2025 – Actualidad",
+        "title": "Practicante Pre Profesional – Mesa de Servicios TI",
+        "place": "BanBif",
+        "summary": [
+          "Apoyo en actividades operativas del área de TI en entorno bancario.",
+          "Participación en gestión de accesos y cuentas de usuario, registro y seguimiento de incidencias, documentación de procesos operativos y coordinación con áreas internas para continuidad de servicios TI.",
+          "Logros: optimización de flujos de trabajo en gestión de accesos, aporte a la estandarización de procesos administrativos TI."
+        ]
+      },
+      {
+        "period": "2023 – Actualidad",
+        "title": "Programa de Inglés – Wetalk",
+        "place": "Universidad Peruana de Ciencias Aplicadas (UPC)",
+        "summary": [
+          "Fortalecimiento progresivo del idioma inglés aplicado a entornos académicos y técnicos.",
+          "Nivel básico–intermedio para lectura de documentación técnica, comprensión de conceptos y participación en proyectos de ingeniería de software."
+        ]
+      },
+      {
+        "period": "2022 – Actualidad",
+        "title": "Ingeniería de Software",
+        "place": "Universidad Peruana de Ciencias Aplicadas (UPC)",
+        "summary": [
+          "Formación orientada al diseño y desarrollo de software, arquitectura de sistemas y metodologías ágiles.",
+          "Experiencia académica en backend y frontend, bases de datos relacionales y fundamentos de análisis de datos aplicados a proyectos de ingeniería de software.",
+          "Tecnologías trabajadas: Angular, Spring Boot, C#, .NET Core, Vue.js."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "CONSTRUYAMOS ALGO",
+    "formTitle": "Cuéntame sobre tu proyecto",
+    "subtitle": "¿Tienes una idea o proyecto? Envíame un mensaje y te responderé con propuestas claras y accionables.",
+    "labels": {
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje"
+    },
+    "errors": {
+      "required": "Requerido",
+      "invalidEmail": "Email inválido"
+    },
+    "status": {
+      "missingId": "Configura VITE_FORMSPREE_ID en tu .env",
+      "sending": "Enviando…",
+      "success": "Mensaje enviado. ¡Gracias!",
+      "error": "Error al enviar. Intenta de nuevo."
+    },
+    "button": {
+      "send": "Enviar",
+      "sending": "Enviando...",
+      "sent": "Enviado"
+    }
+  },
+  "footer": {
+    "madeBy": "Construido con React + Vite · Creado por Camilla Leonor Espinoza Vivas",
+    "credits": "Iridescence & TextPressure por @davidhdev",
+    "top": "Arriba",
+    "github": "GitHub"
+  }
+}

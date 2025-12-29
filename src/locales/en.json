@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About me",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact me"
+  },
+  "hero": {
+    "title": "SOFTWARE ENGINEER",
+    "subtitle": "FOCUSED ON CLOUD, SCALABLE SYSTEMS & CLEAN ARCHITECTURE"
+  },
+  "about": {
+    "title": "Who I am",
+    "description": "I’m a software engineering student focused on modern, scalable applications."
+  },
+  "projects": {
+    "title": "Things I’ve built",
+    "loading": "Loading repositories…",
+    "errorSome": "Some repositories could not be loaded",
+    "github": "GitHub",
+    "noDescription": "No description provided."
+  },
+  "experience": {
+    "title": "What I’ve been up to",
+    "items": [
+      {
+        "period": "2025 – Present",
+        "title": "Pre-Professional Intern – IT Service Desk",
+        "place": "BanBif",
+        "summary": [
+          "Support for IT operations in a banking environment.",
+          "Participation in access management and user accounts, incident logging and follow-up, operational process documentation, and coordination with internal teams for service continuity.",
+          "Achievements: optimized workflows for access management and contributed to standardizing IT administrative processes."
+        ]
+      },
+      {
+        "period": "2023 – Present",
+        "title": "English Program – Wetalk",
+        "place": "Universidad Peruana de Ciencias Aplicadas (UPC)",
+        "summary": [
+          "Progressive strengthening of English for academic and technical contexts.",
+          "Basic–intermediate level for reading technical documentation, understanding concepts, and collaborating on software engineering projects."
+        ]
+      },
+      {
+        "period": "2022 – Present",
+        "title": "Software Engineering",
+        "place": "Universidad Peruana de Ciencias Aplicadas (UPC)",
+        "summary": [
+          "Training focused on software design and development, system architecture, and agile methodologies.",
+          "Academic experience in backend and frontend, relational databases, and data analysis fundamentals applied to software engineering projects.",
+          "Technologies worked with: Angular, Spring Boot, C#, .NET Core, Vue.js."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "LET’S BUILD SOMETHING",
+    "formTitle": "Tell me about your project",
+    "subtitle": "Have an idea or a project in mind? Send me a message and I’ll get back to you with clear, actionable proposals.",
+    "labels": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message"
+    },
+    "errors": {
+      "required": "Required",
+      "invalidEmail": "Invalid email"
+    },
+    "status": {
+      "missingId": "Set VITE_FORMSPREE_ID in your .env",
+      "sending": "Sending…",
+      "success": "Message sent. Thanks!",
+      "error": "Error sending. Please try again."
+    },
+    "button": {
+      "send": "Send",
+      "sending": "Sending...",
+      "sent": "Sent"
+    }
+  },
+  "footer": {
+    "madeBy": "Built with React + Vite · Crafted by Camilla Leonor Espinoza Vivas",
+    "credits": "Iridescence & TextPressure by @davidhdev",
+    "top": "Top",
+    "github": "GitHub"
+  }
+}
